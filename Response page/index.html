@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Friendly Travel - Explore Sustainably</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 text-gray-900 overflow-x-hidden">
+    <header id="header" class="fixed top-0 w-full bg-white shadow-md z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-green-600">EcoTravel</div>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#hero" class="hover:text-green-600 transition">Home</a>
+                <a href="#about" class="hover:text-green-600 transition">About</a>
+                <a href="#features" class="hover:text-green-600 transition">Features</a>
+                <a href="#cta" class="hover:text-green-600 transition">Join Us</a>
+            </nav>
+            <div class="md:hidden">
+                <button id="menu-btn" class="focus:outline-none">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/498405c5-975a-45fc-a0f8-85d16b6902f4.png" alt="hamburger menu icon for mobile navigation with three horizontal lines" />
+                </button>
+            </div>
+        </div>
+        <nav id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="container mx-auto px-4 py-2">
+                <a href="#hero" class="block py-2 hover:text-green-600 transition">Home</a>
+                <a href="#about" class="block py-2 hover:text-green-600 transition">About</a>
+                <a href="#features" class="block py-2 hover:text-green-600 transition">Features</a>
+                <a href="#cta" class="block py-2 hover:text-green-600 transition">Join Us</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero-bg min-h-screen flex items-center justify-center text-center text-white relative">
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div class="relative z-10 max-w-4xl mx-auto px-4 fade-in">
+            <h1 class="text-5xl md:text-7xl font-bold mb-4">Travel Sustainably</h1>
+            <p class="text-xl md:text-2xl mb-8">Discover eco-friendly destinations and make a positive impact on the planet while exploring the world.</p>
+            <a href="#cta" class="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-semibold text-lg transition transform hover:scale-105 shadow-lg">Get Started Today</a>
+        </div>
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/756946a1-e454-4008-a547-fdb7e3776f6b.png" alt="Vibrant aerial view of a tropical beach with crystal-clear turquoise ocean waves, lush palm trees, and a small eco-lodge visible in the distance, photographed in soft morning light with sustainable boats on the shore" class="w-full h-screen object-cover absolute inset-0" style="visibility: hidden;" onerror="this.style.display='none';" />
+    </section>
+
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-4 text-center max-w-4xl">
+            <h2 class="text-4xl font-bold mb-8 text-gray-800">Why Choose Eco-Friendly Travel?</h2>
+            <p class="text-lg mb-8 leading-relaxed">In an era of climate change, traveling responsibly is more important than ever. Eco-friendly travel helps preserve natural habitats, supports local communities, and reduces your carbon footprint. Join us in exploring the world sustainably.</p>
+            <div class="grid md:grid-cols-3 gap-8 mt-12">
+                <div class="hover:transform hover:scale-105 transition duration-300">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/76f13925-61d3-4ffc-a837-a345a1e3b26c.png" alt="Group of diverse travelers hiking through a lush green forest with hiking boots and backpacks, emphasizing conservation and outdoor adventure" class="w-full rounded-lg shadow-lg mb-4" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+                    <div class="hidden bg-gray-200 rounded-lg h-48 flex items-center justify-center text-gray-500">Image not loaded</div>
+                    <h3 class="text-2xl font-semibold mb-2">Nature Adventures</h3>
+                    <p>Experience breathtaking landscapes while contributing to conservation efforts.</p>
+                </div>
+                <div class="hover:transform hover:scale-105 transition duration-300">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/722230ce-7908-45e8-b837-b6d265b893f7.png" alt="Community workshop in a village with local artisans crafting eco-friendly products, showing cultural exchange and sustainable tourism" class="w-full rounded-lg shadow-lg mb-4" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+                    <div class="hidden bg-gray-200 rounded-lg h-48 flex items-center justify-center text-gray-500">Image not loaded</div>
+                    <h3 class="text-2xl font-semibold mb-2">Cultural Immersion</h3>
+                    <p>Engage with local traditions and support indigenous communities ethically.</p>
+                </div>
+                <div class="hover:transform hover:scale-105 transition duration-300">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/89a15101-e8c6-4dce-90bb-6bc6a27fa1a6.png" alt="Solar-powered accommodation overlooking a pristine lake with mountains in the background, highlighting renewable energy and eco-housing" class="w-full rounded-lg shadow-lg mb-4" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+                    <div class="hidden bg-gray-200 rounded-lg h-48 flex items-center justify-center text-gray-500">Image not loaded</div>
+                    <h3 class="text-2xl font-semibold mb-2">Green Stays</h3>
+                    <p>Choose accommodations that prioritize sustainability and eco-innovation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold mb-12 text-center text-gray-800">Key Features of Our Platform</h2>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+                    <div class="feature-icon mx-auto mb-4">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/ae225147-bff1-48cd-a5b3-a2260ac9a007.png" alt="Green leaf icon representing environmental conservation with veined texture and vibrant green color" class="w-full h-full object-cover" />
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Eco-Friendly Routes</h3>
+                    <p>Discover low-impact travel itineraries designed for sustainable exploration.</p>
+                </div>
+                <div class="text-center bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+                    <div class="feature-icon mx-auto mb-4">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/c7c43a71-2016-4b3b-8725-cacc5fe72104.png" alt="Minimalist suitcase icon symbolizing travel preparation with open lid and eco-accessories inside" class="w-full h-full object-cover" />
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Sustainable Tips</h3>
+                    <p>Get practical advice on reducing waste and enhancing your green travel experience.</p>
+                </div>
+                <div class="text-center bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+                    <div class="feature-icon mx-auto mb-4">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/fdb23a7e-6ae7-4488-9203-47dfc48b5cfa.png" alt="Hands holding plant icon depicting community and reforestation efforts in eco-tourism" class="w-full h-full object-cover" />
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Community Impact</h3>
+                    <p>Participate in volunteer programs that restore habitats and empower locals.</p>
+                </div>
+                <div class="text-center bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+                    <div class="feature-icon mx-auto mb-4">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/1a558ac0-5bdf-48d1-92c5-2d66bce13be1.png" alt="Global map icon highlighted with eco-destinations marked in green pins" class="w-full h-full object-cover" />
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Global Destinations</h3>
+                    <p>Explore curated eco-spots worldwide, from rainforests to coral reefs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" class="py-20 bg-green-600 text-white text-center">
+        <div class="container mx-auto px-4 max-w-2xl">
+            <h2 class="text-4xl font-bold mb-8">Join Our Eco-Travel Community</h2>
+            <p class="text-xl mb-8">Subscribe to receive exclusive tips, destination guides, and updates on sustainable travel initiatives.</p>
+            <form id="newsletter-form" class="flex flex-col md:flex-row justify-center items-center gap-4">
+                <input type="email" id="email" placeholder="Enter your email" class="px-4 py-3 rounded-lg text-gray-900 flex-1" required>
+                <button type="submit" class="bg-white text-green-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">Subscribe</button>
+            </form>
+            <div id="message" class="mt-4 text-sm"></div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4 grid md:grid-cols-4 gap-8">
+            <div>
+                <h3 class="text-xl font-bold mb-4">EcoTravel</h3>
+                <p>Empowering travelers to explore sustainably and responsibly.</p>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                <ul>
+                    <li><a href="#about" class="hover:text-green-400 transition">About</a></li>
+                    <li><a href="#features" class="hover:text-green-400 transition">Features</a></li>
+                    <li><a href="#cta" class="hover:text-green-400 transition">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold mb-4">Resources</h4>
+                <ul>
+                    <li><a href="#" class="hover:text-green-400 transition">Travel Guides</a></li>
+                    <li><a href="#" class="hover:text-green-400 transition">Eco-Tips</a></li>
+                    <li><a href="#" class="hover:text-green-400 transition">Partner Programs</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold mb-4">Follow Us</h4>
+                <div class="flex space-x-4">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/f0c01078-89d1-4d5e-ab1f-ceddecdc9642.png" alt="Facebook logo - blue circle with white f letter" class="w-8 h-8" />
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/a511e31c-4761-4b8b-a11f-1194c23a1c23.png" alt="Instagram logo - colorful camera gradient icon" class="w-8 h-8" />
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/49c2cee8-d035-4bdd-813f-85e237353ff4.png" alt="Twitter logo - blue bird in a circle" class="w-8 h-8" />
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+            <p>© 2023 EcoTravel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+</content>
+</create_file>
+
+<create_file>
+<path>style.css</path>
+<content>
